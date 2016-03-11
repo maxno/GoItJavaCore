@@ -9,7 +9,22 @@ class Rectangle implements Figure{
 
     @Override
     public Double calculateArea() {
-        Double area = this.length * this.width;
-        return area;
+        return getLength() * getWidth();
+    }
+
+    public Double getLength() {
+        return length;
+    }
+
+    public void setLength(final Double length) {
+        this.length = length;
+    }
+
+    public Double getWidth() {
+        return width;
+    }
+
+    public void setWidth(final Double width) {
+        this.width = width;
     }
 }
