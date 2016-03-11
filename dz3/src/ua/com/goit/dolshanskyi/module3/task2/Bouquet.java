@@ -1,6 +1,6 @@
 package ua.com.goit.dolshanskyi.module3.task2;
 import java.util.List;
-public class Bouquet {
+public class Bouquet { //букет это обязательно и цветок и тюлбпаны и розы?
     private List<Flower> flowers;
     private List<Tulip> tulips;
     private List<RoseBush> roseBushs;

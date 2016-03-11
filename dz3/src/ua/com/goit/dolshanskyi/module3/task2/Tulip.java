@@ -1,3 +1,3 @@
 package ua.com.goit.dolshanskyi.module3.task2;
-public class Tulip {
+public class Tulip { // тюльпан это не цветок?)
 }
