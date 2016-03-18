@@ -1,6 +1,9 @@
 package ua.com.goit.dolshanskyi.module3.task1;
-import java.util.List;
+
+    import java.util.List;
+
 public class Directory{
+
     private List<File> files;
 
     public List<File> getFiles() {
