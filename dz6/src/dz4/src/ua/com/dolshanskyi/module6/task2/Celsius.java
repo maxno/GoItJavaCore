@@ -2,12 +2,16 @@ package dz4.src.ua.com.dolshanskyi.module6.task2;
 
 import java.io.IOException;
 
-class Celsius implements Temperature{
+class Celsius implements Temperature {
 
     private Float fahrenheitDegrees;
 
-    public void setFahrenheitDegrees(PointTemperature pointTemperature) throws IOException {
-        this.fahrenheitDegrees = pointTemperature.pointTemperature();
+    public void setFahrenheitDegrees(PointTemperature pointTemperature) {
+        try {
+            this.fahrenheitDegrees = pointTemperature.pointTemperature();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
     }
 
     public Float getFahrenheitDegrees() {
